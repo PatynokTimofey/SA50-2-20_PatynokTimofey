@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+.open {
+
+}
+.cube1 {
+    height: 50px;
+    width: auto;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: .10px solid black;
+}
+.cube2 {
+    height: auto;
+    width: auto;
+    border: .10px solid blue;
+    position: relative;
+    top: 50px;
+}
+.phrase1 {
+    color: white;
+    width: 250px;
+    height: 29px;
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+}
